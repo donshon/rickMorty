@@ -3,3 +3,8 @@
     flex-wrap: wrap;
     
 }
+
+.home-dark {
+    background-color: black;
+    color: white;
+}

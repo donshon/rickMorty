@@ -8,3 +8,8 @@
 .about-container img {
     margin: 20px;
 }
+
+.about-dark {
+    background-color: black;
+    color: white;
+}
