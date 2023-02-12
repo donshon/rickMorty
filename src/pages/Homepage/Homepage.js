@@ -11,6 +11,7 @@ function Homepage() {
   //create state
   const [characters, setCharacters] = useState([])
 
+  //extract theme value
   const {darkMode, setDarkMode} = useContext(ThemeContext);
 
   useEffect(
@@ -22,7 +23,7 @@ function Homepage() {
       })
       .catch(err => console.log(err))
     }, []
-  )//end of useEffect
+  )
 
   return (
     <div className={darkMode? "home-container home-dark": "home-container"}>

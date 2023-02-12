@@ -4,6 +4,7 @@ import banner from '../../assets/banner.jpeg'
 import { ThemeContext } from './../../contexts/ThemeContext';
 
 function About() {
+  //extract theme value
   const {darkMode, setDarkMode} = useContext(ThemeContext);
 
   return (

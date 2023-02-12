@@ -4,6 +4,7 @@ import React, {useState, createContext, useEffect} from 'react'
 export const ThemeContext = createContext();
 // 2 assign value
 // 3 provide value to children 
+
 export default function ThemeContextProvider(props) {
     //create my global state
     const [darkMode, setDarkMode] = useState(false)
