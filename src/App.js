@@ -13,6 +13,7 @@ import ThemeContextProvider from './contexts/ThemeContext';
 function App() {
   return (
     <BrowserRouter>
+      <HashRouter basename="/">
       <ThemeContextProvider>
       <UserContextProvider>
         <Header />
@@ -23,6 +24,7 @@ function App() {
         </Routes>
       </UserContextProvider>
       </ThemeContextProvider>
+      </HashRouter>
     </BrowserRouter>
   );
 }
