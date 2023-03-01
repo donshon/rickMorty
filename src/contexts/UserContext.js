@@ -6,7 +6,7 @@ export const UserContext = createContext();
 // 3 provide value to children 
 export default function UserContextProvider(props) {
     //create my global state
-    const [userName, setUserName] = useState("womp")
+    const [userName, setUserName] = useState("")
 
     return (
         <UserContext.Provider value={{userName, setUserName}}>
