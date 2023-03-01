@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Homepage from './pages/Homepage/Homepage';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
 import About from './pages/About/About';
 import CharacterDetails from './pages/CharacterDetails/CharacterDetails';
 import UserContextProvider from './contexts/UserContext';
