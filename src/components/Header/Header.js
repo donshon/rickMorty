@@ -21,8 +21,8 @@ function Header() {
   return (
     <div className={darkMode? "header-container header-dark": "header-container"}>
         <div className="header-links">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
+            <a href="/rickmorty">Home</a>
+            <a href="/rickmorty/about">About</a>
         </div>
         <div className="welcome">
           <p>Welcome {userName}</p>
