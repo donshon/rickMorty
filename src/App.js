@@ -13,6 +13,7 @@ import ThemeContextProvider from './contexts/ThemeContext';
 function App() {
   return (
     // <BrowserRouter>
+    //netlify.com
       <HashRouter basename="/">
       <ThemeContextProvider>
       <UserContextProvider>
