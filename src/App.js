@@ -14,7 +14,7 @@ function App() {
   return (
     // <BrowserRouter>
     //netlify.com
-      <HashRouter basename="/">
+      <HashRouter>
       <ThemeContextProvider>
       <UserContextProvider>
         <Header />
