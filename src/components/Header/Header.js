@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import './Header.css'
 import { UserContext } from './../../contexts/UserContext';
 import { ThemeContext } from '../../contexts/ThemeContext';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -21,8 +22,8 @@ function Header() {
   return (
     <div className={darkMode? "header-container header-dark": "header-container"}>
         <div className="header-links">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
+            <Link to="/"><a>Home</a></Link>
+            <Link to="/about"><a>About</a></Link>
         </div>
         <div className="welcome">
           <p>Welcome {userName}</p>

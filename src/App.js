@@ -19,10 +19,9 @@ function App() {
       <UserContextProvider>
         <Header />
         <Routes>
-          
+          <Route path="/" element={<Homepage />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/details/:id" element={<CharacterDetails />}/>
-          <Route path="/" element={<Homepage />}/>
         </Routes>
       </UserContextProvider>
       </ThemeContextProvider>
